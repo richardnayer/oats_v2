@@ -22,6 +22,7 @@ logging.info("Program started")
 oats_dir = os.path.dirname(os.path.realpath(__file__))
 default_testcase = oats_dir+'/testcases/case24_ieee_rts.xlsx'
 
+
 #----------------------------------------------------------------------
 # DC Load flow
 def dclf(tc='default',solver='ipopt',neos=True,out=0):

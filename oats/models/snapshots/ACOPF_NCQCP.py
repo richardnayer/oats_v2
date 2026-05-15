@@ -781,7 +781,6 @@ def ipopt_solver():
 
 result = ipopt_solver()
 
-from data_out.visualize_results import visualize
-visualize(i, case, output_path="results/acopf_visualization.html")
+
 
 ...
