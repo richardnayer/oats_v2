@@ -1,11 +1,11 @@
 import sys
-sys.path.insert(1, 'C:\Users\richn\OneDrive - University of Strathclyde\General - EEE_STU_NayerPhD\#CODEZONE\oats_v2')
+sys.path.insert(1, 'C:\\Users\\richn\\OneDrive - University of Strathclyde\\General - EEE_STU_NayerPhD\\#CODEZONE\\oats_v2')
 
 import idaes
 import pyomo.environ as pyo
 from pyomo.contrib import appsi
 import pandas as pd
-from oats.util.df_utils import *
+from oats.utils.df_utils import *
 from data_io import load_case
 from typing import List, Dict, Tuple, Union, Any
 import sys
